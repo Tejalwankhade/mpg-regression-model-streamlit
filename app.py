@@ -128,4 +128,4 @@ with st.expander("Upload a CSV to preview predictions (optional)"):
         except Exception as e:
             st.error(f"Failed to read uploaded file: {e}")
 
-st.write("\n---\nMade with ❤️ — modify the code to match your saved model's preprocessing and column names.")
+st.write("\n---\nMade with ❤️ — by Tejal")
