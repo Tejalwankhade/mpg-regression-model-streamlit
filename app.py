@@ -1,7 +1,3 @@
-# streamlit_autompg_app.py
-# Streamlit app to predict MPG using a pre-trained model saved as 'Autompg_model.pkl'
-# Save this file and run: streamlit run streamlit_autompg_app.py
-
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -11,7 +7,7 @@ from pathlib import Path
 
 st.set_page_config(page_title="Auto MPG Predictor", layout="centered")
 
-MODEL_PATH = "Autompg_model.pkl"  # update if your pickle file is in another path
+MODEL_PATH = "Autompg_model.pkl"  
 
 st.title("🚗 MPG Prediction System — Developed by Tejal Wankhade")
 st.write("Enter car attributes to predict miles per gallon (MPG) using the pre-trained model.")
