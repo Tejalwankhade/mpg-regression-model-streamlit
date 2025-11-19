@@ -13,7 +13,7 @@ st.set_page_config(page_title="Auto MPG Predictor", layout="centered")
 
 MODEL_PATH = "Autompg_model.pkl"  # update if your pickle file is in another path
 
-st.title("🚗 Auto MPG Predictor")
+st.title("🚗 MPG Prediction System — Developed by Tejal Wankhade")
 st.write("Enter car attributes to predict miles per gallon (MPG) using the pre-trained model.")
 
 # Sidebar: model load status and tips
